@@ -1,0 +1,28 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+}
+/* seudoselector. Son elementos que no existen en el html. Es una forma de almacenar variables que se les conoce como custom properties
+/* Definiremos una paleta de colores y las fuentes para la hoja de estilos*/
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px; /* 1 rem= 10px */
+}
+/*Poner 62.5% y 16 px en html y body, ayuda a hacer mas manejables los rem*/
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--primario); /*se jala el color de la paleta*/
+}
+
+.titulo span{
+    font-size: 2rem;
+}
